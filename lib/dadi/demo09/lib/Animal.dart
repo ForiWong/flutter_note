@@ -11,7 +11,7 @@ class Animal{
   String getName(){ 
     return this._name;
   } 
-  void _run(){
+  void _run(){//私有方法
     print('这是一个私有方法');
   }
 

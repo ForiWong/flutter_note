@@ -5,8 +5,6 @@ mixins的实例类型是什么？
 
 */
 
-
-
 mixin class A {
   String info="this is A";
   void printA(){
@@ -34,5 +32,4 @@ void main(){
 
   // var a=new A();
   // print(a is Object);
-
 }

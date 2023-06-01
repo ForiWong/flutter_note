@@ -1,12 +1,10 @@
 import 'dart:io';
 import 'dart:convert';
 
-
 void main() async{
   var result = await getDataFromZhihuAPI();
   print(result);
 }
-
 
 //api接口： http://news-at.zhihu.com/api/3/stories/latest
 getDataFromZhihuAPI() async{

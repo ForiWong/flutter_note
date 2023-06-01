@@ -24,14 +24,12 @@ class Person {
   }
 }
 
-
 void main(args) {
    Person p=new Person(
      name: "张三",
      age: 20
    );
    print(p.getName());  //张三---20
-
 
   Person p1=new Person(    
      age: 20

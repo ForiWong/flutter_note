@@ -34,10 +34,7 @@ void printLength(String? str){
 }
 
 void main(args) {
-
 //1、 ? 可空类型
-
-
   // int a=123;
   // print(a);
   
@@ -47,48 +44,38 @@ void main(args) {
   // List<String> l1=["张三","李四","王五"];
   // print(l1);
 
-
   // int a=123;  //非空的int类型
   // a=null;  //A value of type 'Null' can't be assigned to a variable of type 'int'
 
-
   // String username="张三";  //非空的String类型
   // username=null;   //A value of type 'Null' can't be assigned to a variable of type 'String'.
-
 
   // String? username="张三";   // String?  表示username是一个可空类型
   // username=null;
   // print(username);
 
-
   // int? a=123;  //  int? 表示a是一个可空类型
   // a=null; 
   // print(a);
 
-
   // List<String> l1=["张三","李四","王五"];
   // l1=null;  //A value of type 'Null' can't be assigned to a variable of type 'List<String>'.
-
 
   // List<String>? l1=["张三","李四","王五"];
   // l1=null;  
   // print(l1);
-
 
   //调用方法
   // print(getData("http://www.itying.com"));
 
   // print(getData(null));
 
-
-// ! 类型断言
+  // ! 类型断言
 
   // String? str="this is str";
-
   // str=null;
 
-  // print(str!.length);  
-  
+  // print(str!.length);
    //类型断言: 如果str不等于null 会打印str的长度，如果等于null会抛出异常
 
   //  printLength("str");

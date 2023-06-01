@@ -1,4 +1,3 @@
-
 // class Person{
 //   String name='张三';
 //   int age=20; 
@@ -10,8 +9,6 @@
 //     print("${this.name}----${this.age}");
 //   }
 // }
-
-
 
 
 //最新版本的dart中需要初始化不可为null的实例字段，如果不初始化的话需要在属性前面加上late
@@ -41,10 +38,8 @@ class Person{
 
 
 void main(){
-  
   Person p1=new Person('张三',20);
   p1.printInfo();
-
 
   Person p2=new Person('李四',25);
   p2.printInfo();

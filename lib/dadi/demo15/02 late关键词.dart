@@ -2,7 +2,6 @@
 Null safety翻译成中文的意思是空安全。
 
 late 关键字主要用于延迟初始化。
-
 */
 class Person {
   late String name;

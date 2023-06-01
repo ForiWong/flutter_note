@@ -1,5 +1,3 @@
-
-
 // class Rect{
 //   int height;
 //   int width; 
@@ -7,7 +5,6 @@
 //     return this.height*this.width;
 //   } 
 // }
-
 
 // class Rect{
 //   num height;
@@ -22,10 +19,6 @@
 //   Rect r=new Rect(10,4);
 //   print("面积:${r.area()}");   
 // }
-
-
-
-
 
 // class Rect{
 //   num height;
@@ -42,17 +35,14 @@
 // }
 
 
-
-
-
 class Rect{
   late num height;
   late num width;   
   Rect(this.height,this.width);
-  get area{
+  get area{//getter方法
     return this.height*this.width;
   }
-  set areaHeight(value){
+  set areaHeight(value){//setter方法
     this.height=value;
   }
 }
@@ -63,5 +53,4 @@ void main(){
   r.areaHeight=6;
 
   print(r.area);
-
 }

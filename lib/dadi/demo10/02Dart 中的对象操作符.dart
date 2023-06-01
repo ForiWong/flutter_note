@@ -1,6 +1,5 @@
 /*
 Dart中的对象操作符:
-
     ?     条件运算符 （了解）   https://dart.dev/tools/diagnostic-messages#invalid_null_aware_operator        
     as    类型转换
     is    类型判断
@@ -18,11 +17,10 @@ class Person {
 
 main() {
   // Person p;
-  // p?.printInfo();   //已被最新的dart废弃 了解
+  // p?.printInfo();   //已被最新的dart废弃 了解  非空条件判断符
 
   //  Person p=new Person('张三', 20);
   //  p?.printInfo();   //已被最新的dart废弃 了解
-
 
 
   Person p=new Person('张三', 20);
@@ -32,25 +30,17 @@ main() {
   p.printInfo();
   print(p is Object);
 
-
-
   // var p1;
   // p1='';
   // p1=new Person('张三1', 20);
   // p1.printInfo();
   // (p1 as Person).printInfo();
 
-
-
-
   //  Person p1=new Person('张三1', 20);
   //  p1.printInfo();
   //  p1.name='张三222';
   //  p1.age=40;
   //  p1.printInfo();
-
-
-
 
   Person p1 = new Person('张三1', 20);
   p1.printInfo();

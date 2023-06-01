@@ -1,7 +1,5 @@
 /*
-
 Dart是一门使用类和单继承的面向对象语言，所有的对象都是类的实例，并且所有的类都是Object的子类
-
 */
 
 class Person{
@@ -14,12 +12,10 @@ class Person{
   void setInfo(int age){
     this.age=age;
   }
-
 }
+
 void main(){
-
   //实例化
-
   // var p1=new Person();
   // print(p1.name);
   // p1.getInfo();
@@ -28,7 +24,4 @@ void main(){
   // print(p1.name);
   p1.setInfo(28);
   p1.getInfo();
-  
-
-
 }

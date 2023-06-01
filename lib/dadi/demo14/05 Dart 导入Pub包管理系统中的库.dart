@@ -1,7 +1,5 @@
 /*
 pub包管理系统:
-
-
 1、从下面网址找到要用的库
         https://pub.dev/packages
         https://pub.flutter-io.cn/packages
@@ -39,7 +37,5 @@ main() async {
   //   }
 
 
-  
     //print(formatDate(DateTime(1989, 2, 21), [yyyy, '*', mm, '*', dd]));
-
 }

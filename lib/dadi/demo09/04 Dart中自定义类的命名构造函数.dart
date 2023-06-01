@@ -1,4 +1,3 @@
-
 /*
 dart里面构造函数可以写多个
 
@@ -9,7 +8,7 @@ class Person {
   late int age;
   //默认构造函数的简写
   Person(this.name, this.age);
-  Person.now() {
+  Person.now() {//命名构造函数,可以定义多个，now()这个是自定义的
     print('我是命名构造函数');
   }
   Person.setInfo(String name, int age) {

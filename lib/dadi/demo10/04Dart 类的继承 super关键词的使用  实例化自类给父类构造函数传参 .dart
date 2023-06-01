@@ -21,8 +21,7 @@ class Web extends Person{
   }  
 }
 
-main(){ 
-
+main(){
   // Person p=new Person('李四',20);
   // p.printInfo();
 
@@ -31,6 +30,5 @@ main(){
 
   Web w=new Web('张三', 12);
   w.printInfo();
-
 
 }

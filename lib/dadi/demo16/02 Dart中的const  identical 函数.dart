@@ -34,7 +34,6 @@ var o = new Object();
 
 
 void main(){
-  
   // var o1 = new Object();
   // var o2 = new Object();
 
@@ -42,14 +41,10 @@ void main(){
 
   // print(identical(o1,o1));   //true 共享存储空间
 
-
-
   // var o1 = Object();
   // var o2 = Object();
   // print(identical(o1,o2));  //false
   // print(identical(o1,o1));  //true
-
-
 
   //表示实例化常量构造函数
   //o1 和 o2共享了存储空间
@@ -58,22 +53,17 @@ void main(){
   // print(identical(o1,o2));  //true 共享存储空间
   // print(identical(o1,o1));  //true 共享存储空间
 
-
   // print(identical([2],[2])); //false
 
   // var a=[2];
   // var b=[2];
   // print(identical(a,b)); //false 不共享存储空间
 
-
-
   // print(identical(const [2],const [2])); //true
 
   const a=[2];
   const b=[2];
   print(identical(a,b)); //true 共享存储空间
-
-
 
   const c=[2];
   const d=[3];
@@ -82,6 +72,4 @@ void main(){
 
 }
 // 发现：const关键词在多个地方创建相同的对象的时候，内存中只保留了一个对象
-
-
 // 共享存储空间条件：1、常量   2、值相等

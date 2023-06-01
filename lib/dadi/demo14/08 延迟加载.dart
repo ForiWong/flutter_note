@@ -14,6 +14,4 @@
       await hello.loadLibrary();
       hello.printGreeting();
     }
-
-
 */
