@@ -6,7 +6,14 @@ Flutter APP的启动优化，比如闲鱼的启动优化
 Dart语法
 Flutter基础
 Flutter Native，进阶、混合开发
-相关技术：网络、BLE、图表等，基础库
+#相关技术：网络、BLE、图表等，基础库
+架构技术
+.
+.
+#《Flutter实战·第二版》
+#Flutter核心技术与实战32讲
+面试题
+#独立开发经验项目 + 看github的项目源码（1-2个）
 .
 .
 https://www.itying.com/goods-1120.html
